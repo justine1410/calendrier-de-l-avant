@@ -9,7 +9,16 @@ let year = date.getFullYear();
 
 console.log(case1);
 case1.addEventListener('click', ()=>{
-        case1.innerHTML = "Bon de réduction de --% au magasin ----------"
+        // case1.innerHTML = "Bon de réduction de --% au magasin ----------";
+        case1.innerHTML=`
+            <img class="img-noel" src="./img/lunette-helene.jpg" alt="">
+
+           <p> Bon de réduction de ---% au magasin Les lunettes d'hélène</p>
+        `
+        case1.style.backgroundImage="none";
+        case1.style.backgroundColor="#CC3636";
+        
+        
 })
 
 case2.addEventListener('click', ()=>{

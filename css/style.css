@@ -2,34 +2,39 @@ body {
   display: flex;
   justify-content: center;
 }
-
-.box {
+body .box {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  border: solid 1px;
-  background-color: green;
+  width: 70%;
+  padding-top: 150px;
 }
-.box .row {
+body .box .row {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
   padding: 10px 0 10px 0;
 }
-.box .row .row-1, .box .row .row-2, .box .row .row-3, .box .row .row-4, .box .row .row-5, .box .row .row-6, .box .row .row-7, .box .row .row-8, .box .row .row-9, .box .row .row-10, .box .row .row-11, .box .row .row-12, .box .row .row-13, .box .row .row-14, .box .row .row-15, .box .row .row-16, .box .row .row-17, .box .row .row-18, .box .row .row-19, .box .row .row-20, .box .row .row-21, .box .row .row-22, .box .row .row-23, .box .row .row-24 {
+body .box .row .row-1, body .box .row .row-2, body .box .row .row-3, body .box .row .row-4, body .box .row .row-5, body .box .row .row-6, body .box .row .row-7, body .box .row .row-8, body .box .row .row-9, body .box .row .row-10, body .box .row .row-11, body .box .row .row-12, body .box .row .row-13, body .box .row .row-14, body .box .row .row-15, body .box .row .row-16, body .box .row .row-17, body .box .row .row-18, body .box .row .row-19, body .box .row .row-20, body .box .row .row-21, body .box .row .row-22, body .box .row .row-23, body .box .row .row-24 {
   border: solid 1px;
-  width: 200px;
-  height: 200px;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  color: white;
+  background-image: url("../img/fond_case.jpg");
   padding: 10px;
   text-align: center;
 }
-.box .row .row-1:hover, .box .row .row-2:hover, .box .row .row-3:hover, .box .row .row-4:hover, .box .row .row-5:hover, .box .row .row-6:hover, .box .row .row-7:hover, .box .row .row-8:hover, .box .row .row-9:hover, .box .row .row-10:hover, .box .row .row-11:hover, .box .row .row-12:hover, .box .row .row-13:hover, .box .row .row-14:hover, .box .row .row-15:hover, .box .row .row-16:hover, .box .row .row-17:hover, .box .row .row-18:hover, .box .row .row-19:hover, .box .row .row-20:hover, .box .row .row-21:hover, .box .row .row-22:hover, .box .row .row-23:hover, .box .row .row-24:hover {
+body .box .row .row-1:hover, body .box .row .row-2:hover, body .box .row .row-3:hover, body .box .row .row-4:hover, body .box .row .row-5:hover, body .box .row .row-6:hover, body .box .row .row-7:hover, body .box .row .row-8:hover, body .box .row .row-9:hover, body .box .row .row-10:hover, body .box .row .row-11:hover, body .box .row .row-12:hover, body .box .row .row-13:hover, body .box .row .row-14:hover, body .box .row .row-15:hover, body .box .row .row-16:hover, body .box .row .row-17:hover, body .box .row .row-18:hover, body .box .row .row-19:hover, body .box .row .row-20:hover, body .box .row .row-21:hover, body .box .row .row-22:hover, body .box .row .row-23:hover, body .box .row .row-24:hover {
   cursor: pointer;
+}
+body .box .row .row-1 .img-noel, body .box .row .row-2 .img-noel, body .box .row .row-3 .img-noel, body .box .row .row-4 .img-noel, body .box .row .row-5 .img-noel, body .box .row .row-6 .img-noel, body .box .row .row-7 .img-noel, body .box .row .row-8 .img-noel, body .box .row .row-9 .img-noel, body .box .row .row-10 .img-noel, body .box .row .row-11 .img-noel, body .box .row .row-12 .img-noel, body .box .row .row-13 .img-noel, body .box .row .row-14 .img-noel, body .box .row .row-15 .img-noel, body .box .row .row-16 .img-noel, body .box .row .row-17 .img-noel, body .box .row .row-18 .img-noel, body .box .row .row-19 .img-noel, body .box .row .row-20 .img-noel, body .box .row .row-21 .img-noel, body .box .row .row-22 .img-noel, body .box .row .row-23 .img-noel, body .box .row .row-24 .img-noel {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: solid 1px;
+    background-color: green;
+    .row{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        padding: 10px 0 10px 0;
+        .row-1,.row-2,.row-3,.row-4,.row-5,.row-6,.row-7,.row-8,.row-9,.row-10,.row-11,.row-12,.row-13,.row-14,.row-15,.row-16,.row-17,.row-18,.row-19,.row-20,.row-21,.row-22,.row-23,.row-24{
+            border: solid 1px;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
